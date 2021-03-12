@@ -20,5 +20,7 @@ print('합은 ',x+y)
 
 if(((x+y)-a)**2>((x+y)-b)**2):
     print("b승")
-else:
+elif(((x+y)-a)**2<((x+y)-b)**2):
     print("a승")
+else:
+    print("무승부")
